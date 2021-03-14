@@ -20,6 +20,19 @@ export const Container = styled.section`
   }
 `;
 
+export const Footer = styled.footer`
+  text-align: center;
+  color: #E7E7EB;
+  margin: 30px auto 0 auto;
+  & > p {
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+`;
+
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
@@ -140,5 +153,7 @@ export const HumidityBar = styled.div`
     }
   }
 `;
+
+
 
 export const NavigationIcon = styled(Navigation)``;

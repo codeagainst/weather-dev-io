@@ -7,6 +7,7 @@ import {
   IconBlock,
   NavigationIcon,
   HumidityBar,
+  Footer,
 } from './styles';
 
 const TodayHighlightsSection = ({ today }) => {
@@ -72,6 +73,9 @@ const TodayHighlightsSection = ({ today }) => {
           </h2>
         </Card>
       </div>
+      <Footer>
+      <p>CodeAgainst  @ DevChallenges.io</p>
+      </Footer>
     </Container>
   );
 };
